@@ -5,8 +5,6 @@ require('dotenv').config()
 
 const app = express()
 
-console.log(process.env.MARTIN)
-
 mongoose
   .connect(
     `mongodb+srv://Sebasgc0399:${process.env.MONGO_DB_PASS}@development.mdixs.mongodb.net/?retryWrites=true&w=majority`
